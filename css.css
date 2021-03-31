@@ -1,0 +1,183 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 35, 39);
+}
+.hero{
+    background-image: url(./footos/treinar-sozinho.jpg);
+    height: 450px;
+    border-top: 1px solid black;
+    background-size:auto;
+    background-position: top left;
+    border-bottom: 2px solid black;
+}
+.hero-content h1{
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+    font-size: 55px;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 5px black;
+    padding: 0;
+}
+.hero-content{
+    text-align: center;
+}
+.hero-content p{
+    display:inline-block;
+    color: white;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 10px;
+    text-align: center;
+    margin-top: 0;
+    font-style: italic;
+    font-family: cursive;
+}
+.hero nav li{
+    display: inline-block;
+    margin-left: 13px;
+    text-decoration: none;
+    list-style: none;
+}
+.hero nav ul{
+    text-align: right;
+    letter-spacing: 2px;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+.hero nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-shadow:1px 1px 1px black;
+    background: rgb(0, 0, 0, .4);
+    padding: 7px;
+    border:1px solid white;
+    transition: color 0.3s linear;
+    letter-spacing: 2px;
+}
+.hero nav a:hover{
+    color: rgb(17, 17, 17);
+}
+.form{
+    width: 1024px;
+    margin: 70px auto;
+}
+.form h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    font-size: 45px;
+}
+#text, #email, #tel .contact{
+    =
+}
+.contact{
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+    color: white;
+    border: none;
+    
+}
+.contact label{
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.contact legend{
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+.form2{
+    margin-top: 215px;
+    width: 1024px;
+    margin: 70px auto;
+    display: block;
+}
+.form2 h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    font-size: 45px;
+}
+.dados{
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+    color: white;
+    border: none;
+    
+}
+.dados label{
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+.dados legend{
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+.for3{
+    margin-top: 215px;
+    width: 1024px;
+    margin: 70px auto;
+    display: block;
+    text-align: center;
+}
+.for3 h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    font-size: 45px;
+}
+.for3 legend{
+    color: white;
+    font-size: 20px;
+}
+.eu{
+    margin-top: 215px;
+    width: 1024px;
+    margin: 70px auto;
+    display: block;
+}
+.eu h1{
+    margin:35px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    font-size: 45px;
+}
+.card {
+  
+ }
+.card .img{
+    float: left;
+    margin: 7px;
+    border: solid 5px  rgba(0, 0, 0, .6);;
+}
+.card p{
+    color: white;
+    text-align: left;
+    margin: 5px;
+}
+footer{
+    text-align: center;
+    padding: 3px;
+    color: white;
+    background: slategray;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    color: rgb(41, 42, 43);
+}
