@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background:rgb(233, 235, 238);
+}
+.hero{
+    height: 85px;
+    width: 100%;
+    background: rgb(63, 92, 154);
+    border-top: 1px solid rgb(63, 92, 154);
+}
+.hero h1{
+    color: white;
+    margin-left: 160px;
+    font-size: 40px;
+    padding: 0;
+    margin-top: 42px;
+    font-weight: bold;
+}
+.hero ul{
+    list-style: none;
+    margin-top: -15px;
+}
+.hero li{
+    display: inline-block;
+}
+.hero li:nth-child(2){
+    background: rgb(66, 183, 42);
+    padding: 8px;
+    margin-top: 2px;
+    position: relative;
+    top: -7px;
+    border-radius: 3px;
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.hero a{
+    text-decoration: none;
+    color: white;
+}
+
+.hero-content{
+    width: 48%;
+    height: 30%;
+    margin: 80px auto 0;
+  
+}
+#user, #pass, #sub{
+    display: block;
+    box-sizing: border-box;
+    width: 300px;
+    margin-top: 15px;
+    height: 35px;
+    margin: 10px auto 0;
+    outline: 0;
+}
+#user, #pass{
+    border: 1px solid silver;
+    padding: 8px;
+}
+#sub{
+    background:rgb(63, 92, 154);
+    border: none;
+    color: white;
+    font-size: 15px;
+    height: 45px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s linear height;
+}
+
+.hero-content h1, p{
+    text-align: center;
+}
+.fi{
+    border: none;
+    background: white;
+}
+.fi h1{
+    font-size: 18px;
+    padding: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.nova a{
+    text-decoration: none;
+    color: white;
+    padding:15px 22px;
+    background: rgb(66, 183, 42);
+    border-radius: 3px;
+    width: auto;
+    font-size: 16px;
+}
+.esq{
+    font-size: 12px;
+}
+.esq a{
+    text-decoration: none;
+}
+.agn{
+    margin-top: 23px;
+    font-size: 13px;
+}
+.agn a{
+    text-decoration: none;
+}
+.ou{
+    font-size: 12px;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+h1::selection{
+    
+    background: rgb(0, 255, 200);
+    
+}
